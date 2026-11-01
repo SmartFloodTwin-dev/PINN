@@ -1,2 +1,0 @@
-[console_scripts]
-flood-pinn = flood_pinn.__main__:main

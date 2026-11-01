@@ -1,5 +1,0 @@
-{
-  "status": "failed",
-  "error_type": "AttributeError",
-  "message": "module 'os' has no attribute 'getuid'"
-}
