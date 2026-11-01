@@ -1,0 +1,10 @@
+{
+  "run_id": "3d07fc9b3f08479092f73e987b98218c",
+  "model_id": "eda49d2a2752d237-bae1466d00b3",
+  "end_s": 6,
+  "coverage": "complete",
+  "validation_status": "research_unvalidated",
+  "reference_validation_status": "comparison_only_not_accuracy_approval",
+  "status": "failed",
+  "error": "module 'os' has no attribute 'getuid'"
+}

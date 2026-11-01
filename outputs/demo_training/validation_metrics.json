@@ -1,0 +1,183 @@
+{
+  "schema_version": "1.0",
+  "scenarios": [
+    {
+      "scenario_id": "train_0",
+      "split": "train",
+      "pde_rms_normalized": [
+        0.21417386020896606,
+        0.0023778638083039355,
+        0.0030668308584463526
+      ],
+      "pde_p95_normalized": [
+        0.2586692530532556,
+        0.00536536629332831,
+        0.006106805556909593
+      ],
+      "ic_h_rmse_m": 9.326142389909364e-06,
+      "ic_velocity_rmse_m_s": 1.0506340004212689e-05,
+      "bc_normal_velocity_rmse_m_s": 1.0672461867043767e-05,
+      "bc_discharge_rmse_m2_s": 1.636943425456464e-10,
+      "reference_sample_count": 35,
+      "depth_mae_m": 7.432850867279784e-06,
+      "depth_rmse_m": 8.866030630053435e-06,
+      "relative_l2": 0.9213849307628671,
+      "velocity_rmse_m_s": 1.0178840057051275e-05,
+      "flood_iou": null,
+      "flood_precision": null,
+      "flood_recall": null,
+      "flood_f1": null,
+      "reference_status": "comparison_completed"
+    },
+    {
+      "scenario_id": "train_1",
+      "split": "train",
+      "pde_rms_normalized": [
+        0.8135869781029922,
+        0.007266935657735174,
+        0.011809252939655207
+      ],
+      "pde_p95_normalized": [
+        1.0389169424020182,
+        0.014391176800307666,
+        0.019065016980019698
+      ],
+      "ic_h_rmse_m": 2.117785334121436e-05,
+      "ic_velocity_rmse_m_s": 8.9323384599993e-06,
+      "bc_normal_velocity_rmse_m_s": 1.4768554426879752e-05,
+      "bc_discharge_rmse_m2_s": 7.403257363988492e-10,
+      "reference_sample_count": 35,
+      "depth_mae_m": 1.1322475395983987e-05,
+      "depth_rmse_m": 1.3820535732621088e-05,
+      "relative_l2": 0.3590680511508132,
+      "velocity_rmse_m_s": 1.2012898878310807e-05,
+      "flood_iou": 0.0,
+      "flood_precision": 0.0,
+      "flood_recall": null,
+      "flood_f1": 0.0,
+      "reference_status": "comparison_completed"
+    },
+    {
+      "scenario_id": "train_2",
+      "split": "train",
+      "pde_rms_normalized": [
+        0.2212221430465456,
+        0.004091771446272485,
+        0.004991787705597522
+      ],
+      "pde_p95_normalized": [
+        0.27109100071265185,
+        0.006315833841372548,
+        0.0077458933103958325
+      ],
+      "ic_h_rmse_m": 7.278767498064553e-06,
+      "ic_velocity_rmse_m_s": 8.343939043697901e-06,
+      "bc_normal_velocity_rmse_m_s": 1.422105094805363e-05,
+      "bc_discharge_rmse_m2_s": 2.2506786477508014e-10,
+      "reference_sample_count": 35,
+      "depth_mae_m": 4.2241243079987485e-06,
+      "depth_rmse_m": 5.021343358050681e-06,
+      "relative_l2": 0.3037005648684806,
+      "velocity_rmse_m_s": 1.2114135643059853e-05,
+      "flood_iou": null,
+      "flood_precision": null,
+      "flood_recall": null,
+      "flood_f1": null,
+      "reference_status": "comparison_completed"
+    },
+    {
+      "scenario_id": "train_3",
+      "split": "train",
+      "pde_rms_normalized": [
+        0.8095302273770602,
+        0.014004214561688143,
+        0.008955444204972225
+      ],
+      "pde_p95_normalized": [
+        1.067284359652666,
+        0.02337982290037828,
+        0.013563546313619695
+      ],
+      "ic_h_rmse_m": 1.7497141016065143e-05,
+      "ic_velocity_rmse_m_s": 1.083730148820905e-05,
+      "bc_normal_velocity_rmse_m_s": 1.8763389603181998e-05,
+      "bc_discharge_rmse_m2_s": 7.893133532098724e-10,
+      "reference_sample_count": 35,
+      "depth_mae_m": 2.6413621309168067e-05,
+      "depth_rmse_m": 3.030662217558324e-05,
+      "relative_l2": 0.45825079155478016,
+      "velocity_rmse_m_s": 1.3643842976307496e-05,
+      "flood_iou": 0.4,
+      "flood_precision": 1.0,
+      "flood_recall": 0.4,
+      "flood_f1": 0.5714285714285714,
+      "reference_status": "comparison_completed"
+    },
+    {
+      "scenario_id": "validation",
+      "split": "validation",
+      "pde_rms_normalized": [
+        0.425752403161652,
+        0.003063089279166482,
+        0.0034507041707095448
+      ],
+      "pde_p95_normalized": [
+        0.5432932684857785,
+        0.005727615520856545,
+        0.005045118532556692
+      ],
+      "ic_h_rmse_m": 1.0358264262322336e-05,
+      "ic_velocity_rmse_m_s": 8.187577805074397e-06,
+      "bc_normal_velocity_rmse_m_s": 1.0787621040361243e-05,
+      "bc_discharge_rmse_m2_s": 2.435328101025009e-10,
+      "reference_sample_count": 35,
+      "depth_mae_m": 7.67235347821418e-06,
+      "depth_rmse_m": 9.084132517455945e-06,
+      "relative_l2": 0.3378182144224879,
+      "velocity_rmse_m_s": 9.326101462647785e-06,
+      "flood_iou": null,
+      "flood_precision": null,
+      "flood_recall": null,
+      "flood_f1": null,
+      "reference_status": "comparison_completed"
+    },
+    {
+      "scenario_id": "test",
+      "split": "test",
+      "pde_rms_normalized": [
+        0.631828951921016,
+        0.006026462059894998,
+        0.0060460576015155115
+      ],
+      "pde_p95_normalized": [
+        0.8317990533849613,
+        0.010385037739712813,
+        0.009304623679802443
+      ],
+      "ic_h_rmse_m": 1.3011605915380642e-05,
+      "ic_velocity_rmse_m_s": 8.341511602338869e-06,
+      "bc_normal_velocity_rmse_m_s": 1.2121700233252055e-05,
+      "bc_discharge_rmse_m2_s": 2.969794551600025e-10,
+      "reference_sample_count": 35,
+      "depth_mae_m": 1.6142264524255767e-05,
+      "depth_rmse_m": 1.8448185063428646e-05,
+      "relative_l2": 0.4110890356927463,
+      "velocity_rmse_m_s": 1.01131900009932e-05,
+      "flood_iou": 0.05,
+      "flood_precision": 1.0,
+      "flood_recall": 0.05,
+      "flood_f1": 0.09523809523809523,
+      "reference_status": "comparison_completed"
+    }
+  ],
+  "split_counts": {
+    "train": 4,
+    "validation": 1,
+    "test": 1
+  },
+  "reference_type": "analytic_flat_closed_uniform_rain",
+  "reference_validation_status": "comparison_only_not_accuracy_approval",
+  "held_out_scenario_status": "physics_audited_not_accuracy_validated",
+  "water_balance_status": "requires_time_series_export",
+  "acceptance_passed": null
+}
