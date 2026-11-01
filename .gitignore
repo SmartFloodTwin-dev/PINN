@@ -1,0 +1,15 @@
+﻿# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python package metadata
+*.egg-info/
+.pytest_cache/
+
+# Generated outputs
+outputs/
